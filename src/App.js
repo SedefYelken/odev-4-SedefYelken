@@ -7,8 +7,15 @@ function App() {
   const [selectedCity, setSelectedCity] = useState("Adana");
   return (
     <div className="App">
-      <Dropdown selectedCity={selectedCity} setSelectedCity={setSelectedCity} />
-      <Weather selectedCity={selectedCity}></Weather>
+      <div>
+        <Dropdown
+          selectedCity={selectedCity}
+          setSelectedCity={setSelectedCity}
+        />
+      </div>
+      <div>
+        <Weather selectedCity={selectedCity}></Weather>
+      </div>
     </div>
   );
 }
