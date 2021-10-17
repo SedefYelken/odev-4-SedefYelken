@@ -44,7 +44,6 @@
 }
 
 .dropdown {
-  position: fixed;
   background-color: rgb(0, 17, 49);
   color: aliceblue;
   size: 70px;
