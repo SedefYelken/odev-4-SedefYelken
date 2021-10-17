@@ -1,0 +1,35 @@
+# Write your query or mutation here
+query {
+  getCityByName(name: "Ankara") {
+    id
+    name
+    country
+    coord {
+      lon
+      lat
+    }
+    weather {
+      summary {
+        title
+        description
+        icon
+      }
+      temperature {
+        actual
+        feelsLike
+        min
+        max
+      }
+      wind {
+        speed
+        deg
+      }
+      clouds {
+        all
+        visibility
+        humidity
+      }
+      timestamp
+    }
+  }
+}
