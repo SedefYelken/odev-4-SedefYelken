@@ -51,7 +51,7 @@
   size: 70px;
   width: 150px;
   height: 30px;
-  margin-top: 50px;
+  margin: 30px;
 }
 
 .weatherCard {
@@ -59,8 +59,14 @@
   margin-right: auto;
   margin-top: 3%;
   margin-bottom: 3%;
-  height: 50%;
-  color: aliceblue;
+  height: 30%;
+  color: rgb(101, 122, 139);
   size: 50px;
-  background-color: rgb(0, 17, 49);
+  background-color: rgb(0, 17, 49) !important;
+  width: 18rem
+  
+}
+
+.weather-image{
+  height: 200px;
 }

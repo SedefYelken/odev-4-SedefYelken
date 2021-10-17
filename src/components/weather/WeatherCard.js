@@ -15,14 +15,14 @@ const WeatherCard = ({
   return (
     <Card
       className="weatherCard"
-      style={{ width: "18rem", backgroundColor: "rgb(0, 17, 49)" }}
+
     >
-      <Card.Img
+      <Card.Img className = "weather-image"
         variant="top"
         // get the src from example url and pass the icon prop for icon code
         src={`http://openweathermap.org/img/wn/${icon}@2x.png`}
       />
-      <Card.Body>
+      <Card.Body className = "cardBody">
         <Card.Title>{main}</Card.Title>
         {/*  datetime is received in milliseconds, let's turn into local date time */}
         <p>
